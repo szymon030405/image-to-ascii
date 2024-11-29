@@ -2,7 +2,7 @@ from PIL import Image
 
 file = open("image_ascii.txt", 'w')
 
-with Image.open("lebron.jpg") as image:
+with Image.open("lewandowski.jpg") as image:
     for y in range(image.height):
         line = ""
 
